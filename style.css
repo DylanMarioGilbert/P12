@@ -21,7 +21,6 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -89,4 +88,43 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+
+
+.profile img {
+    width: 250px; /* Ajuste la largeur de l'image */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 50%; /* Si tu veux une image ronde */
+    display: block;
+    margin: 0 auto; /* Pour centrer l'image */
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+}
+
+.skill i {
+    font-size: 40px; /* Taille de l'icône */
+    color: #333; /* Couleur de l'icône */
+}
+
+.skill p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.icon-small {
+    width: 30px;  /* Largeur désirée pour les icônes SVG */
+    height: auto;  /* Garde le ratio d'aspect */
+    margin-bottom: 10px;  /* Ajuste l'espacement si nécessaire */
 }
