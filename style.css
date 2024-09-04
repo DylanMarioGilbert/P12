@@ -1,7 +1,4 @@
 
-
-/* style.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -73,8 +70,8 @@ ul li a:hover {
 nav {
     display: flex;
     align-items:center;
-    justify-content: space-between; /* Sépare le nom de la liste */
-    padding: 10px 20px; /* Optionnel : pour ajouter un peu d'espace autour de la nav */
+    justify-content: space-between; 
+    padding: 10px 20px; 
     background-color: #333;
 }
 
@@ -109,31 +106,25 @@ ul li a {
     color: white;
 }
 
-/* Style de base pour la navbar */
-
-
 .nav-name a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
 }
 
-/* Cacher la case à cocher */
 .menu-toggle {
     display: none;
 }
 
-/* Style de l'icône du menu */
 .menu-icon {
     font-size: 2em;
     color: white;
     background: none;
     border: none;
     cursor: pointer;
-    display: none; /* Caché par défaut */
+    display: none; 
 }
 
-/* Style pour le menu */
 ul.nav-menu {
     list-style: none;
     padding: 0;
@@ -151,38 +142,34 @@ ul.nav-menu li a {
     padding: 10px;
 }
 
-/* Cacher le menu par défaut sur les petits écrans */
 ul.nav-menu {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 80px; /* Ajuste selon la hauteur de ta navbar */
+    top: 80px;
     left: 0;
     background-color: #333;
 }
 
-/* Afficher le menu lorsque la case est cochée */
 .menu-toggle:checked ~ .nav-menu {
     display: flex;
 }
 
-/* Style pour les grands écrans */
 @media (min-width: 835px) {
     ul.nav-menu {
-        display: flex; /* Afficher le menu en mode desktop */
-        position: static; /* Retirer la position absolue */
-        flex-direction: row; /* Afficher les éléments en ligne */
+        display: flex; 
+        position: static; 
+        flex-direction: row;
     }
 
     .menu-icon {
-        display: none; /* Cacher l'icône du menu en mode desktop */
+        display: none;
     }
 }
 
-/* Style pour les petits écrans */
 @media (max-width: 835px) {
     .menu-icon {
-        display: block; /* Afficher l'icône du menu en mode mobile */
+        display: block;
     }
     ul.nav-menu {
         width: 100%;
@@ -196,11 +183,11 @@ nav ul li a:hover {
 
 
 .profile img {
-    width: 250px; /* Ajuste la largeur de l'image */
-    height: auto; /* Maintient le ratio de l'image */
-    border-radius: 50%; /* Si tu veux une image ronde */
+    width: 250px;
+    height: auto;
+    border-radius: 50%; 
     display: block;
-    margin: 0 auto; /* Pour centrer l'image */
+    margin: 0 auto; 
 }
 
 .skills-icons {
@@ -216,8 +203,8 @@ nav ul li a:hover {
 }
 
 .skill i {
-    font-size: 40px; /* Taille de l'icône */
-    color: #333; /* Couleur de l'icône */
+    font-size: 40px;
+    color: #333;
 }
 
 .skill p {
@@ -227,15 +214,15 @@ nav ul li a:hover {
 }
 
 .icon-small {
-    width: 30px;  /* Largeur désirée pour les icônes SVG */
-    height: auto;  /* Garde le ratio d'aspect */
-    margin-bottom: 10px;  /* Ajuste l'espacement si nécessaire */
+    width: 30px;  
+    height: auto; 
+    margin-bottom: 10px;
 }
 
 .project-list {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Espacement entre les projets */
+    gap: 20px;
 }
 
 .project-item {
