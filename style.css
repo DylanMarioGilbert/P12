@@ -219,17 +219,20 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+ 
 .project-list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
+} 
 
 .project-item {
     background-color: #f4f4f4;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
 }
 
 .project-item h3 {
